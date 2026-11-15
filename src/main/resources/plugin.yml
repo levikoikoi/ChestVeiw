@@ -1,0 +1,17 @@
+name: ChestView
+version: 2.0.0
+main: nl.chestview.ChestViewPlugin
+api-version: "1.21.11"
+description: Sluit kisten af zodat anderen alleen kunnen kijken.
+commands:
+  close:
+    description: Sluit de kist die je vasthoudt
+    usage: /close chest
+    aliases: [closechest]
+permissions:
+  chestview.close:
+    description: Mag /close chest gebruiken
+    default: op
+  chestview.bypass:
+    description: Mag gesloten kisten openen, aanpassen en slopen
+    default: op
